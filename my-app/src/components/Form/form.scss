@@ -1,0 +1,61 @@
+@import "../ProductList/myconst.scss";
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: $cardcolor;
+    font-size: $font-form;
+
+    &-button{
+        background-color: $btn-color;
+        width: 100px;
+    }
+    &-error {
+        color: red;
+        font-size: 12px;
+        font-weight: bolder;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+    }
+    &-title{
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+    &:hover{
+        background-color: $btn-color;
+    }
+    &:focus {
+        background-color: $cardcolor;
+        box-shadow: 10px 5px 5px $btn-color;
+    }
+    &-error{
+        border: 2px solid red;
+    }
+}
+
+

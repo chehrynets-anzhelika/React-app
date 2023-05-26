@@ -1,0 +1,33 @@
+@import "./myconst.scss";
+.card {
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $cardcolor;
+
+    &-box {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &-table {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 5px;
+        width: 700px;
+        margin: 0 auto;
+        
+    }
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: $font;
+}

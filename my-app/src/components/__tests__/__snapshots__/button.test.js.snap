@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button add to cart snapshot button 1`] = `
+<button
+  className="button"
+  data-modal-id={2}
+  data-testid="button-element"
+  id={1}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "pink",
+    }
+  }
+>
+  Add to Cart
+</button>
+`;

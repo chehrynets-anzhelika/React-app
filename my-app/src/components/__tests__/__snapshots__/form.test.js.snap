@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        action="#"
+        class="form"
+      >
+        <div>
+          <h3
+            class="form-title"
+          >
+            give info about yourself to order
+          </h3>
+        </div>
+        <label
+          for="name"
+        >
+          Name
+        </label>
+        <input
+          class="input"
+          id="name"
+          name="name"
+          placeholder="Jane"
+          type="text"
+          value=""
+        />
+        <label
+          for="astName"
+        >
+          Last Name
+        </label>
+        <input
+          class="input"
+          id="astName"
+          name="lastName"
+          placeholder="Doe"
+          type="text"
+          value=""
+        />
+        <label
+          for="age"
+        >
+          Age
+        </label>
+        <input
+          class="input"
+          id="age"
+          name="age"
+          placeholder="21"
+          type="text"
+          value=""
+        />
+        <label
+          for="address"
+        >
+          Address
+        </label>
+        <input
+          class="input"
+          id="address"
+          name="address"
+          placeholder="Input your address"
+          type="text"
+          value=""
+        />
+        <label
+          for="mobile"
+        >
+          Mobile
+        </label>
+        <input
+          class="input"
+          id="mobile"
+          inputmode="numeric"
+          name="mobile"
+          type="text"
+          value="+380 (__) ___ __ __"
+        />
+        <button
+          class="button form-button"
+          data-testid="form-button-element"
+          type="submit"
+        >
+          Checkout
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      action="#"
+      class="form"
+    >
+      <div>
+        <h3
+          class="form-title"
+        >
+          give info about yourself to order
+        </h3>
+      </div>
+      <label
+        for="name"
+      >
+        Name
+      </label>
+      <input
+        class="input"
+        id="name"
+        name="name"
+        placeholder="Jane"
+        type="text"
+        value=""
+      />
+      <label
+        for="astName"
+      >
+        Last Name
+      </label>
+      <input
+        class="input"
+        id="astName"
+        name="lastName"
+        placeholder="Doe"
+        type="text"
+        value=""
+      />
+      <label
+        for="age"
+      >
+        Age
+      </label>
+      <input
+        class="input"
+        id="age"
+        name="age"
+        placeholder="21"
+        type="text"
+        value=""
+      />
+      <label
+        for="address"
+      >
+        Address
+      </label>
+      <input
+        class="input"
+        id="address"
+        name="address"
+        placeholder="Input your address"
+        type="text"
+        value=""
+      />
+      <label
+        for="mobile"
+      >
+        Mobile
+      </label>
+      <input
+        class="input"
+        id="mobile"
+        inputmode="numeric"
+        name="mobile"
+        type="text"
+        value="+380 (__) ___ __ __"
+      />
+      <button
+        class="button form-button"
+        data-testid="form-button-element"
+        type="submit"
+      >
+        Checkout
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

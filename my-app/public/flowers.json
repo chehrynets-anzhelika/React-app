@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Сarnation",
+        "price": "100",
+        "url": "./images/carnation.jpg",
+        "code": "1",
+        "color": "white"
+    },
+
+    {
+        "name": "Аmmarilies",
+        "price": "300",
+        "url": "./images/ammarilies.jpg",
+        "code": "2",
+        "color": "red"
+    },
+
+    {
+        "name": "Eustoma",
+        "price": "150",
+        "url": "./images/eustoma.jpg",
+        "code": "3",
+        "color": "pink"
+    },
+
+    {
+        "name": "Hyacinth",
+        "price": "200",
+        "url": "./images/hyacinth.jpg",
+        "code": "4",
+        "color": "purple"
+    },
+    {
+        "name": "Hydrangea",
+        "price": "250",
+        "url": "./images/hydrangea.jpg",
+        "code": "5",
+        "color": "purple"
+    },
+    {
+        "name": "Narcissus",
+        "price": "150",
+        "url": "./images/narcissus.jpg",
+        "code": "6",
+        "color": "yellow"
+    },
+    {
+        "name": "Orchids",
+        "price": "350",
+        "url": "./images/orchids.jpg",
+        "code": "7",
+        "color": "red"
+    },
+    {
+        "name": "Peonies",
+        "price": "300",
+        "url": "./images/peonies.jpg",
+        "code": "8",
+        "color": "pink"
+    },
+    {
+        "name": "Roses",
+        "price": "400",
+        "url": "./images/roses.jpg",
+        "code": "9",
+        "color": "red"
+    },
+    {
+        "name": "Tulips",
+        "price": "200",
+        "url": "./images/tulips.jpg",
+        "code": "10",
+        "color": "orange"
+    }
+
+]

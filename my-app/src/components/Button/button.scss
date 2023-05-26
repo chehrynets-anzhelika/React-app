@@ -1,0 +1,33 @@
+@import "../ProductList/myconst.scss";
+
+.button {
+    border-radius: 3px;
+    border: 1px solid $border-color;
+    font-size: $font;
+    font-family: $font-family;
+    margin: 0 auto;
+    font-weight: bold;
+    color: $border-color;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+        color: black;
+    }
+
+    &-wrapper {
+        display: flex;
+        margin-top: 15px;
+    }
+
+}
+
+.delete-btn{
+    background-color: rgb(250, 240, 240);
+    display: flex;
+    align-items: flex-end;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid $border-color;
+}
